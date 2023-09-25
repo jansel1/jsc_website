@@ -1,0 +1,44 @@
+body {
+    font-family: "Verdana";
+    background-color: rgb(41, 41, 41);
+    color: rgb(196, 191, 191);
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    border-color: black;
+    width: 20%;
+}
+
+button:hover {
+    border-color: white;
+    transform: scale(1.01);
+}
+
+button:active {
+    transform:scale(1.1);
+}
+
+button {
+    background-color: rgb(96, 103, 163);
+}
+
+.logo {
+    width: 120px;
+    background: none;
+}
+
+p {
+    font: "Arial Black"
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(88, 86, 86);
+    border: none;
+}
+
+a {
+    color: black;
+}
