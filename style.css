@@ -1,28 +1,92 @@
-body {
-    font-family: "Verdana";
-    background-color: rgb(41, 41, 41);
-    color: rgb(196, 191, 191);
+:root {
+    /* Empty for now */
 }
 
-button {
+body {
+    font-family: "Arial";
+    background-color: rgb(41, 41, 41);
+    color: rgb(196, 191, 191);
+    font-family: "Roboto";
+    letter-spacing: 1.8px;
+}
+
+.db {
+    overflow-x: hidden;
+    margin: auto;
+    display: flex;
+
+    position: relative;
+    bottom: 120px;
+
     border-radius: 10px;
     border: none;
     border-color: black;
     width: 20%;
+
+    text-decoration: none;
+
+    background-color: rgb(96, 103, 163);
+    transition: all 0.6s ease-in-out;
+    border: none;
 }
 
-button {
-    background-color: rgb(96, 103, 163);
-    transition: all 0.4s ease-in-out;
-    border: none
+.main-docs {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
 }
+.doc {
+    overflow-x: hidden;
+    margin: auto;
+    display: flex;
+
+    position: relative;
+    bottom: 130px;
+
+    border-radius: 10px;
+    border: none;
+    border-color: black;
+    width: 20%;
+
+    text-decoration: none;
+
+    background-color: rgb(96, 103, 163);
+    transition: all 0.6s ease-in-out;
+    border: none;
+}
+
+.main {
+    font-size: 1200%;
+    font-family: "A4 Speed";
+    text-align: center;
+}
+
+.sub {
+    position: relative;
+    text-align: center;
+    bottom: 130px;
+}
+
+a {
+    margin: auto;
+    display: flex;
+
+    font-family: "Roboto";
+
+    letter-spacing: 1.8px;
+    text-decoration: none;
+
+    text-align: center;
+}
+
 
 button:hover {
-    /* HOVER ON */
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
     transform: scale(1.058);
     border: 3px solid rgb(125, 96, 163);
     cursor: pointer;
+
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 5px 1px;
 }
 
 button:active {
@@ -30,12 +94,15 @@ button:active {
 }
 
 .logo {
-    width: 120px;
+    pointer-events: none;
+
+    width: 100px;
     background: none;
 }
 
+
 p {
-    font: "Arial Black"
+    font: "Arial"
 }
 
 hr {
@@ -60,4 +127,8 @@ a {
 .main-paragraph-disclaimer {
     font-size: 70%;
     color: rgb(102, 61, 61);
+}
+
+.main-paragraph-about {
+    font-family: "Arial";
 }
