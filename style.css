@@ -11,18 +11,22 @@ button {
     width: 20%;
 }
 
+button {
+    background-color: rgb(96, 103, 163);
+    transition: all 0.4s ease-in-out;
+    border: none
+}
+
 button:hover {
-    border-color: white;
-    transform: scale(1.02);
+    /* HOVER ON */
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.06);
+    border: 3px solid rgb(125, 96, 163);
     cursor: pointer;
 }
 
 button:active {
     transform:scale(1.1);
-}
-
-button {
-    background-color: rgb(96, 103, 163);
 }
 
 .logo {
