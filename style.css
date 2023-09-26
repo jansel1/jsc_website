@@ -15,7 +15,6 @@ body {
 }
 
 .db, .homebtn {
-    overflow-x: hidden;
     margin: auto;
     display: flex;
 
@@ -41,7 +40,6 @@ body {
 }
 
 .doc {
-    overflow-x: hidden;
     margin: auto;
     display: flex;
 
@@ -67,8 +65,25 @@ body {
 
 .main {
     font-size: 1200%;
+
     font-family: "Orbitron";
     text-align: center;
+}
+
+@media screen and (max-width: 700px){
+    .main {
+        font-size: 600%;
+        
+        line-height: 3;
+    }
+
+    .doc {
+        width: 150px;
+    }
+
+    .db {
+        width: 200px;
+    }
 }
 
 .sub {
