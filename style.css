@@ -42,6 +42,9 @@ body {
     border: none;
 }
 
+.db {
+    background: linear-gradient(72deg, rgb(73, 160, 138) 0%, rgb(103, 179, 101) 12%, rgba(0,212,255,1) 100%);
+}
 .main-docs {
     font-family: "Roboto", sans-serif;
     letter-spacing: 3px;
@@ -65,8 +68,9 @@ body {
     background-color: rgb(96, 103, 163);
     transition: all 0.6s ease-in-out;
     border: none;
-}
 
+    background: linear-gradient(341deg, rgb(73, 160, 138) 0%, rgb(103, 179, 101) 12%, rgba(0,212,255,1) 100%);
+}
 .homebtn, .docins {
     margin: auto;
     display: flex;
@@ -87,6 +91,12 @@ body {
 }
 
 .homebtn {
+    background: linear-gradient(15deg, rgb(98, 180, 160) 0%, rgb(103, 179, 101) 12%, rgba(0,212,255,1) 100%);
+}
+.docins {
+    background: linear-gradient(221deg, rgb(98, 180, 160) 0%, rgb(103, 179, 101) 12%, rgba(0,212,255,1) 100%);
+}
+.homebtn {
     width: 120px;
 }
 
@@ -94,6 +104,8 @@ body {
     position: relative;
     width: 20%;
     height: auto;
+
+    background: linear-gradient(141deg, rgb(73, 160, 138) 0%, rgb(103, 179, 101) 12%, rgba(0,212,255,1) 100%);
 }
 
 
@@ -167,6 +179,9 @@ button:hover {
     }
 }
 
+
+
+
 /* Responsive Text */
 @media screen and (max-width: 700px){
     .main {
@@ -188,11 +203,12 @@ button:hover {
     }
 
     .homebtn {
-        width: 150px;
+        width: 100px;
     }
 
     .docins {
-        width: 150px;
+        width: 125px;
+        height: 45px;
     }
 }
 
@@ -221,6 +237,10 @@ button:hover {
     .github-link {
         height: 0px;
         padding-bottom: 100%;
+    }
+
+    .homebtn {
+        width: 120px;
     }
 }
 
