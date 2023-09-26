@@ -14,7 +14,7 @@ button {
 button:hover {
     border-color: white;
     transform: scale(1.01);
-    cursor: grab;
+    cursor: pointer;
 }
 
 button:active {
