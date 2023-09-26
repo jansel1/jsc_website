@@ -113,6 +113,8 @@ body {
 
     font-family: "Orbitron";
     text-align: center;
+
+    pointer-events: none;
 }
 
 .main {
