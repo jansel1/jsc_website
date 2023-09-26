@@ -6,8 +6,12 @@ body {
     font-family: "Arial";
     background-color: rgb(41, 41, 41);
     color: rgb(196, 191, 191);
+
     font-family: "Roboto";
     letter-spacing: 1.8px;
+
+    overflow: hidden;
+
 }
 
 .db, .homebtn {
@@ -73,7 +77,7 @@ body {
     bottom: 130px;
 }
 
-a {
+.btna {
     margin: auto;
     display: inline-block;
 
@@ -118,7 +122,7 @@ hr {
     border: none;
 }
 
-a {
+.btna {
     color: black;
 }
 
@@ -138,4 +142,31 @@ a {
 
 .main-paragraph-about {
     font-family: "Arial";
+}
+
+.github-link {
+    transition: all 0.4s ease-in-out;
+
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 50px;
+
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+
+    box-sizing: border-box;
+    text-align: center;
+
+    font-size: 12px;
+}
+
+.github-link:hover {
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.1)
+}
+
+.github-link:active {
+    transform: scale(1.3);
 }
