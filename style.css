@@ -56,3 +56,8 @@ a {
     width: 70%;
     word-wrap: break-word;
 }
+
+.main-paragraph-disclaimer {
+    font-size: 70%;
+    color: rgb(102, 61, 61);
+}
