@@ -113,28 +113,26 @@ body {
 
     font-family: "Orbitron";
     text-align: center;
-
-    cursor: pointer;
 }
 
 .main {
-    color: red; /* Start with an initial color */
-    animation: cycleColors 10s linear infinite; /* 20s is the total duration for 4 colors (5s each) */
+    color: red;
+    animation: cycleColors 10s linear infinite;
 }
 
-/* Define a keyframe animation to cycle through colors */
+
 @keyframes cycleColors {
     0%, 100% {
         color: rgb(104, 83, 199);
     }
     25% {
-        color: rgb(30, 30, 172); /* Change to blue after 5 seconds */
+        color: rgb(30, 30, 172);
     }
     50% {
-        color: rgb(122, 39, 163); /* Change to green after 10 seconds */
+        color: rgb(122, 39, 163);
     }
     75% {
-        color: rgb(104, 42, 42); /* Change to orange after 15 seconds */
+        color: rgb(104, 42, 42);
     }
 }
 
