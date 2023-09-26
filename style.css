@@ -14,7 +14,7 @@ body {
     text-align: center;
 }
 
-.db, .homebtn, .github, .doc {
+.db, .homebtn, .github, .doc, .doc_install {
     width: auto;
     height: auto;
 
@@ -61,7 +61,7 @@ body {
     border: none;
 }
 
-.homebtn {
+.homebtn, .docins {
     margin: auto;
     display: flex;
 
@@ -78,6 +78,10 @@ body {
     background-color: rgb(96, 103, 163);
     transition: all 0.6s ease-in-out;
     border: none;
+}
+
+.homebtn {
+    width: 120px;
 }
 
 .github {
@@ -109,7 +113,10 @@ body {
 
     font-family: "Orbitron";
     text-align: center;
+
+    cursor: pointer;
 }
+
 .main {
     color: red; /* Start with an initial color */
     animation: cycleColors 10s linear infinite; /* 20s is the total duration for 4 colors (5s each) */
@@ -154,6 +161,10 @@ body {
     .homebtn {
         width: 150px;
     }
+
+    .docins {
+        width: 150px;
+    }
 }
 
 
@@ -192,7 +203,7 @@ body {
     bottom: 130px;
 }
 
-.btna {
+a {
     margin: auto;
     display: inline-block;
 
@@ -203,6 +214,7 @@ body {
 
     width: 110%;
     text-align: center;
+    color: black;
 }
 
 button {
@@ -240,7 +252,7 @@ hr {
     border: none;
 }
 
-.btna {
+a {
     color: black;
 }
 
