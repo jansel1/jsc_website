@@ -13,7 +13,7 @@ button {
 
 button:hover {
     border-color: white;
-    transform: scale(1.01);
+    transform: scale(1.02);
     cursor: pointer;
 }
 
@@ -46,4 +46,9 @@ a {
 
 .main-paragraph-filedata {
     color: rgb(87, 87, 87);
+}
+
+.main-paragraph {
+    width: 70%;
+    word-wrap: break-word;
 }
