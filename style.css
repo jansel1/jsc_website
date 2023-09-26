@@ -3,7 +3,6 @@
 }
 
 body {
-    font-family: "Arial";
     background-color: rgb(41, 41, 41);
     color: rgb(196, 191, 191);
 
@@ -12,9 +11,13 @@ body {
 
     overflow: hidden;
 
+    text-align: center;
 }
 
-.db, .homebtn {
+.db, .homebtn, .github, .doc {
+    width: auto;
+    height: auto;
+
     margin: auto;
     display: flex;
 
@@ -59,8 +62,44 @@ body {
 }
 
 .homebtn {
-    top: 25px;
-    width: 120px;
+    margin: auto;
+    display: flex;
+
+    position: relative;
+    bottom: 130px;
+
+    border-radius: 10px;
+    border: none;
+    border-color: black;
+    width: 20%;
+
+    text-decoration: none;
+
+    background-color: rgb(96, 103, 163);
+    transition: all 0.6s ease-in-out;
+    border: none;
+}
+
+.github {
+    position: relative;
+    width: 20%;
+    height: auto;
+}
+
+
+.gha {
+    margin: auto;
+    display: inline-block;
+
+    font-family: "Roboto";
+
+    letter-spacing: 1.8px;
+    text-decoration: none;
+
+    width: 110%;
+    text-align: center;  
+
+    color: black;
 }
 
 .main {
@@ -70,10 +109,12 @@ body {
     text-align: center;
 }
 
+
+/* Responsive Text */
 @media screen and (max-width: 700px){
     .main {
+        margin-top: -80px;
         font-size: 600%;
-        
         line-height: 3;
     }
 
@@ -84,7 +125,41 @@ body {
     .db {
         width: 200px;
     }
+
+    .github {
+        width: 100px;
+    }
 }
+
+
+
+@media screen and (max-width: 350px){
+    .main {
+        margin-top: -80px;
+        font-size: 250%;
+        line-height: 8
+    }
+
+    .sub {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .doc {
+        width: 150px;
+    }
+
+    .db {
+        width: 200px;
+    }
+
+    .github-link {
+        height: 0px;
+        padding-bottom: 100%;
+    }
+}
+
+/* End Responsive Text */
 
 .sub {
     position: relative;
@@ -105,6 +180,9 @@ body {
     text-align: center;
 }
 
+button {
+    transition: all 0.2s ease-in-out;
+}
 
 button:hover {
     transition: all 0.2s ease-in-out;
@@ -157,31 +235,4 @@ hr {
 
 .main-paragraph-about {
     font-family: "Arial";
-}
-
-.github-link {
-    transition: all 0.4s ease-in-out;
-
-    display: flex;
-
-    align-items: flex-end;
-    justify-content: center;
-    margin-top: 50px;
-
-    text-decoration: none;
-    color: rgb(87, 87, 87);
-
-    box-sizing: border-box;
-    text-align: center;
-
-    font-size: 12px;
-}
-
-.github-link:hover {
-    transition: all 0.4s ease-in-out;
-    transform: scale(1.1)
-}
-
-.github-link:active {
-    transform: scale(1.3);
 }
