@@ -71,6 +71,7 @@ body {
 
     background: linear-gradient(141deg, rgb(73, 93, 160) 0%, rgb(98, 88, 187) 12%, rgb(46, 142, 161) 100%);
 }
+
 .homebtn, .docins {
     margin: auto;
     display: flex;
@@ -160,7 +161,7 @@ button:hover {
 
 .main {
     color: red;
-    animation: cycleColors 10s linear infinite;
+    animation: cycleColors 5s linear infinite;
 }
 
 
@@ -175,7 +176,7 @@ button:hover {
         color: rgb(122, 39, 163);
     }
     75% {
-        color: rgb(104, 42, 42);
+        color: rgb(196, 30, 121);
     }
 }
 
